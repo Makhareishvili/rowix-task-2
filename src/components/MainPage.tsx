@@ -140,6 +140,7 @@ const MainPage = () => {
         <button
           onClick={() => fileInputRef.current.click()}
           style={{
+            width: "100px",
             border: "none",
             borderRadius: "5px",
             cursor: "pointer",
@@ -156,6 +157,8 @@ const MainPage = () => {
             background: "#2929d1",
             color: "white",
             cursor: "pointer",
+            border: "none",
+            borderRadius: "5px",
           }}
         >
           Shuffle
@@ -166,8 +169,9 @@ const MainPage = () => {
             padding: "10px 20px",
             color: "white",
             background: "grey",
-            borderRadius: "5px",
             cursor: "pointer",
+            border: "none",
+            borderRadius: "5px",
           }}
         >
           reset
@@ -180,6 +184,7 @@ const MainPage = () => {
             background: "grey",
             borderRadius: "5px",
             cursor: "pointer",
+            border: "none",
           }}
         >
           review img
